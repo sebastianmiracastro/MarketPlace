@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body {
+  width: auto;
+  height: auto;  
+  align-items: center;
+  background:linear-gradient(#2a1d5e9d, purple); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+#Options_Library{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}
+#Options_Library a:not(:last-child){
+  margin-right: 450px;
+}
+#Options_Library a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  transition: color 300ms ease-in-out;
+}
+
+#Options_Library a:hover{
+  transform: scale(1.2);
+  transition: 300ms;
+}
+
+#h1-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  width: 90%;
+  height: 120px;
+  color: #2a1d5e;   
+  background-color: rgb(233, 227, 227); 
+  box-shadow: 0 0 50px #ceb8ed;
+  border-radius: 50%;
+}
+#TxT_Description{
+  width: auto;
+  height:auto;
+  background-color:rgb(233, 227, 227);
+  box-shadow: 0 0 10px rgb(233, 227, 227);
+  border-radius: 20%;
+}
+
+#Descrip_h2{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #2a1d5e;
+  text-align: center;
+}
+/*Main Cards Container*/
+#main{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;  
+  flex-wrap: wrap;
+}
+
+/* Cards */
+.card {
+  width: 16rem;
+  height: 22rem;
+  border-radius: 20px;
+  background-color: rgb(233, 227, 227); 
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  box-shadow: 0 0 100px rgb(233, 227, 227);
+}
+
+/*Headers  Card*/
+.header-card {
+  width: 100%;  
+  display: flex;
+  flex-direction: column;    
+}
+
+/* H2-Tittle */
+#h2{
+  color: #2a1d5e;
+  margin: 10px;  
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+#p-header {
+  text-align: center;
+  font-size: 1.1rem;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Main Cards*/
+.card-main {
+  margin-top: 1rem;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(90deg, #2a1d5e, purple);
+}
+
+/*Card Image*/
+
+.card-image {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.card-image:hover{
+  transition: 400ms;
+  transform: scale(1.1);
+}
+
+/* Img */
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20%;
+  box-shadow: 0 0 20px #2a1d5e;
+}
+
+/* Price Container */
+#h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  color: rgb(233, 227, 227);
+  text-align: center;
+  margin-top: 1rem;
+  width: 257px;
+  height: 20px;
+  background: linear-gradient(90deg, #2a1d5e, purple);
+}
+
+/* BTN-Card*/
+button {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #2a1d5e, purple);
+  color: rgb(233, 227, 227);
+  cursor: pointer;
+}
+
+button:hover {
+  transform:scale(1.1);
+  transition: 300ms;
+  background: #9084c4;
+  color: rgb(233, 227, 227);
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(233, 227, 227);
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer img {
+  width: 5rem;
+  height: 5rem;
+}
+
+footer h2 {
+  color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#LinkMyPage{
+  color: #2a1d5e;
+  text-decoration: none;
+}
+#LinkMyPage:hover{
+  transform: scale(1.1);
+  transition: 100ms;
+}
+
+/*   Shopping */
+
+.logo{ 
+  margin-left: 65%;
+  position: fixed;
+}
+#show-modal2{
+  background: white;
+  padding: 0px 0px;
+
+}
+.productos{
+  width: 98%;
+}
+.productos .content-cats{
+  position: fixed;
+}
+.productos p{
+  font-size: 140%;
+  color: #000;
+}
+.productos .article2{
+  width: 600px;
+  height: 1000px;
+  background: linear-gradient(90deg, #2f284b, rgb(219, 68, 219));
+  box-shadow: 0 0 100px rgb(233, 227, 227);
+}
+.close-cart{
+  font-size: 50px;
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+.close-cart:hover{
+  transition: 100ms;
+  transform: scale(1.3);
+}
+.productos a:hover{
+  color: #f20909;
+}
+.productos:target .content-cats{
+  top: 5px;
+}
+.container_products {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
